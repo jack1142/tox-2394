@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tox_2394"
+version = "1.0.0"
+readme = "README.md"
+authors = [{name = "Jakub Kuczys (jack1142)"}]
+dynamic = ["requires-python"]
+
+[project.urls]
+Homepage = "https://github.com/tox-dev/tox/issues/2394"
